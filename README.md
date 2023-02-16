@@ -1,2 +1,2 @@
-# CS355-project1
+# Painting_Board
 Created with CodeSandbox
