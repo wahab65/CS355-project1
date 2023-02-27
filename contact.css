@@ -1,0 +1,339 @@
+/** header **/
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.container2 {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  font-weight: 800;
+  color: black;
+}
+.search{
+  float:left;
+  position:relative;
+  height: 30px;
+  top:20px;
+}
+
+.search .input{
+  background-color: white;
+  font-size:24px;
+  padding: 15px;
+  height:30px;
+  width:30px;
+  transition: width 0.3s ease;
+}
+
+.btn{
+    padding: 15px;
+
+  background-color:white;
+  cursor:pointer;
+  font-size: 24px;
+  position:absolute;
+  top:0;
+  left:0;
+  height:30px;
+  width:30px;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus, .input:focus{
+  outline:focus;
+}
+
+.search.active .input{
+  width: 200px;
+  
+}
+.search.active .btn{
+  transform: translateX(198px);
+}
+
+header {
+  background: #ffffff;
+  background: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.logo {
+  float: center;
+  position: absolute;
+  top: 5px;
+  left: 640px;
+  padding: 10px 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+
+nav {
+  float: right;
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 35px;
+  margin-top: 5px;
+  padding-top: 23px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+nav a {
+  color: #694639;
+  text-decoration: none;
+  /**text-transform: uppercase;**/
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #694639;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: #694639;
+
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav a:active {
+  color: #D7C2AE;
+  cursor: default;
+}
+
+nav li:active {
+  color: #FFEB98;
+  cursor: default;
+}
+
+#searchicon{
+  margin-top:-33px;
+  margin-left:-43px;
+}
+/** header end **/
+
+
+
+.contact-us {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.2em;
+    flex: 1;
+    padding: 15px;
+    color: #643921;
+  margin-left:150px;
+  
+}
+iframe{
+  top: 20px;
+  border:black solid 2px;
+}
+.form {
+  margin-top:0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+    padding: 0px;
+    color: #643921;
+     margin-right: 10px;
+}
+  .form label,
+  .form input[type="text"] {
+    flex: 0 1 80%;
+    
+  }
+  
+
+  .form input[type="submit"],
+  .form input[type="button"] {
+    background-color: #D7C2AE;
+    color: #643921;
+    display: block; 
+    margin-top: 10px; 
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .form input[type="button"]:hover,
+  .form input[type="submit"]:hover {
+    background-color: #643921;
+    color: #D7C2AE;
+    cursor: pointer;
+  }
+  
+.form label {
+    display: block;
+    margin-bottom: 5px; }
+.form label[for="fname"] {
+    order: 1; 
+  }
+
+  
+.form input[type="text"] {
+    width: 370px;
+    height: 59px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 10px;
+  }
+  .form input[type="text"][id="lname"] {
+    flex: 1; 
+  }
+  .icon {
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    color: #643921;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+a{
+  padding:15px;
+}
+h2{
+  color:black;
+}
+
+/*footer*/
+.footer {
+  margin-top: 100px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footerColumn {
+  height:100px;
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  background-color: #D7C2AE;
+}
+
+/* socials */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  color: #D7C2AE;
+  color: black;
+}
+
+/* Twitter */
+.fa-facebook {
+  color: #D7C2AE;
+  color: black;
+}
+
+/* Twitter */
+.fa-yelp {
+  color: #D7C2AE;
+  color: black;
+}
+
+i{
+    color: #694639;
+}
+
+.form-control {
+  width: 200px;
+  height: 30px;
+}
+
+.subscribe {
+  font-size: 16px;
+  text-align: left;
+  padding-left: 90px;
+}
+
+button {
+  height: 20px;
+  width: 20px;
+}
+.fa-fa-paper-plane-fa-1x{
+  width:100%;
+  height:100%;
+  text-align: left;
+  margin-left: -10px;
+}
+.input-group{
+  padding-top: -10px;
+  padding-bottom: -10px;
+  margin-top: -35px;
+}
+
+.list-unstyled-text-muted {
+  list-style-type: none;
+}
+
+.credits {
+  margin-top: -10px;
+}
+  
+ 
