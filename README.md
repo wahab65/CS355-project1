@@ -5,8 +5,6 @@ We are a warm and inviting eatery located in the heart of the city, serving up a
 
 ## What's in this project?
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
-
 ← `Home Page`: This is the main web page for your site. This page is the landing page for the users and introduces the user to the cafe.!
 
 ← `Menu Page`: This page introduces the users to the various food items we serve at the cafe. It has been divided into 3 sections: brunch, beverages, and baked goods. 
