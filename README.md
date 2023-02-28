@@ -1,4 +1,4 @@
-# Cherry Lane Cafe!
+# Cherry Lane Cafe & Bakery!
 
 We are a warm and inviting eatery located in the heart of the city, serving up a delicious range of freshly baked goods, hearty breakfast options, and handcrafted coffee drinks. Our menu is made from only the finest ingredients, and is constantly evolving to reflect the seasons and our customers' changing tastes.
 
