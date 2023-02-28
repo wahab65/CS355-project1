@@ -19,7 +19,6 @@ const brunchSection = document.getElementById("brunchSection");
   beveragesHeading.addEventListener("click", function() {
       beveragesSection.scrollIntoView({ behavior: 'smooth' });
 
-    window.location.hash = beveragesSection.id;
   });
 
 bakedGoodsHeading.addEventListener("click", function() {
